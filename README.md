@@ -5,5 +5,5 @@ cd
 '''
 # pwd
 '''
-print working directroy
+print working directory
 '''
