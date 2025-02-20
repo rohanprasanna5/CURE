@@ -2,9 +2,9 @@
 
 Week 1
 
-# Change directory
+# cd
 '''
-cd
+change directory
 '''
 # pwd
 '''
@@ -57,4 +57,41 @@ to submit jobs
 '''
 to monitor jobs that are in queue
 Use squeue --me to view the jobs that you submitted only
+'''
+# Molecular Dynamics (MD)
+''' 
+a computational technique that is used to simulate the movement of atoms and molecules in a system over time
+'''
+# AMBER
+''' 
+software that allows us to run MD simulations
+'''
+# pdb file
+''' 
+A coordinate file that describes the postion of atoms in a protein
+'''
+# Equilibirum Still-Shot Analysis vs. Dynamic Equilibrium Analysis
+''' 
+Equilibirum Still-Shot Analysis - Taking a snapshot of an ensemble of molecules at equilibrium to analyze the various configuration of molecules and making an average
+;    Dynamic Equilibirum Analysis - Focusing on the changing configuration of a single molecule to create a "movie" and compare the fraction of time it spends in each configuration
+'''
+# tLEAP
+''' 
+program that take protein coordinate files (pdb files) and creates a topology file, an inital structure of how the atoms connect with each other 
+'''
+# cpptraj
+''' 
+a software tool used to analyze MD simulations, allowing us to assess structural changes and behaviors
+'''
+# Root-mean-square Deviation (RMSD) analysis
+''' 
+measures how much a molecule deviates over time compared to a reference structure, a "general analysis"
+'''
+# Root-mean-square fluctuation (RMSF) analysis
+''' 
+Asseses residue-level or atomic-level flexibility; Very useful when assesing the impact of a mutation on a certain residue
+'''
+# AlphaFold
+''' 
+an AI system that predicts the 3D structure of proteins from their amino acid sequence; Goes through many configurations and gives the structure with the highest probability
 '''
